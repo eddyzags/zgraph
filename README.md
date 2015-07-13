@@ -32,11 +32,11 @@ the Adjacent lists representation :
 
 ## Modifiers<a id="sec-2-1" name="sec-2-1"></a>
 
-**\*** addVertex(zType const &vertex);
+### addVertex(zType const &vertex);
 Add a new vertex to the graph.
 Complexity : O(1)
 
-**\*** addEdge(zType const &vertex\_u, zType const &vertex\_v);
+### addEdge(zType const &vertex\_u, zType const &vertex\_v);
 Add an edge between two vertices. After this call, the two vertices
 become adjacent.
 
@@ -44,10 +44,8 @@ become adjacent.
 
 ## Remove<a id="sec-2-2" name="sec-2-2"></a>
 
-**\*** removeVertex(zType const &vertex);
+### removeVertex(zType const &vertex);
 Remove one vertex from the graph and all his connections.
 
-## Capacity<a id="sec-2-3" name="sec-2-3"></a>
-
-**\*** removeEdge(zType &vertex\_u, zType vertex\_y);
+### removeEdge(zType &vertex\_u, zType vertex\_y);
 Remove one edge from two vertices. They are no longer adjacent.
